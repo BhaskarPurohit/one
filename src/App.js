@@ -6,6 +6,7 @@ import "./styles/App.scss"
 import "./styles/Header.scss"
 import "./styles/Home.scss"
 import Home from "./components/Home";
+import Contact from "./components/Contact"
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
+        <Route path="/contact" element={<Contact/>}></Route>
       </Routes>
       <Footer/>
     </Router>
