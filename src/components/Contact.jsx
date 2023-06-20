@@ -1,4 +1,5 @@
 import React from 'react'
+import "../styles/Contact.scss"
 
 const Contact = () => {
   return (
@@ -19,6 +20,7 @@ const Contact = () => {
                     <label htmlFor="">Message</label>
                     <input type="text" required placeholder='Tell us about your query..' />
                 </div>
+                <button type='submit'>Send</button>
             </form>
         </main>
     </div>
