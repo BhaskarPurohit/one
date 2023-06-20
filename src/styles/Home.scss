@@ -108,8 +108,16 @@
             letter-spacing: 1px;
             word-spacing: 5px;
             line-height: 170%;
-            font: italic;
+            font: italic 100 1.2rem $text2;
         }
 
     }
+}
+
+.home4{
+    width: 100%;
+    height: 120vh;
+    background-color: $second;
+    margin-top: -200px;
+    display: flex;
 }

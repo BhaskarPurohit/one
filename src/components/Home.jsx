@@ -1,6 +1,7 @@
 import React from 'react'
 import "../styles/Home.scss"
 import vg from "../assets/2.webp"
+import {AiFillGoogleCircle, AiFillAmazonCircle, AiFillYoutube, AiFillInstagram} from "react-icons/ai"
 
 const Home = () => {
   return (
@@ -26,6 +27,39 @@ const Home = () => {
         <div>
             <h1>Who We Are</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis inventore consequuntur eveniet accusamus aspernatur exercitationem delectus ipsa pariatur nesciunt assumenda, laborum dolorum id sint enim magnam totam saepe vel similique sunt quia cupiditate. Voluptates est in ad modi iusto! Aperiam dolorum maxime inventore nemo odio ad eaque, minus temporibus dolorem!</p>
+        </div>
+     </div>
+
+     <div className="home4">
+        <div>
+            <h1>Brands</h1>
+
+            <article>
+                <div style={{
+                    animationDelay:"0.3s"
+                }}>
+                    <AiFillGoogleCircle/>
+                    <p>Google</p>
+                </div>
+                <div style={{
+                    animationDelay:"0.5s"
+                }}>
+                    <AiFillAmazonCircle/>
+                    <p>Amazon</p>
+                </div>
+                <div style={{
+                    animationDelay:"0.7s"
+                }}>
+                    <AiFillYoutube/>
+                    <p>YouTube</p>
+                </div>
+                <div style={{
+                    animationDelay:"1s"
+                }}>
+                    <AiFillInstagram/>
+                    <p>Instagram</p>
+                </div>
+            </article>
         </div>
      </div>
     </>
