@@ -6,7 +6,7 @@ import {AiFillGoogleCircle, AiFillAmazonCircle, AiFillYoutube, AiFillInstagram} 
 const Home = () => {
   return (
     <>
-     <div className='home' id=''>
+     <div className='home' id='home'>
         <main>
             <h1>Techie Star</h1>
             <p>Solution to all your problems</p>
@@ -23,14 +23,14 @@ const Home = () => {
             </p>
         </div>
      </div>
-     <div className="home3">
+     <div className="home3" id='about'>
         <div>
             <h1>Who We Are</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis inventore consequuntur eveniet accusamus aspernatur exercitationem delectus ipsa pariatur nesciunt assumenda, laborum dolorum id sint enim magnam totam saepe vel similique sunt quia cupiditate. Voluptates est in ad modi iusto! Aperiam dolorum maxime inventore nemo odio ad eaque, minus temporibus dolorem!</p>
         </div>
      </div>
 
-     <div className="home4">
+     <div className="home4" id='brands'>
         <div>
             <h1>Brands</h1>
 
